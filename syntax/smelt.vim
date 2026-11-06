@@ -19,7 +19,7 @@ syn keyword smeltOn on
 syn keyword smeltBool true false
 
 syn keyword smeltWord exe static_lib none speed size debug release
-syn keyword smeltWord linux macos windows all default
+syn keyword smeltWord linux macos windows all default std_module
 
 syn keyword smeltCall pkg_config first
 syn match smeltUnknownCall "\<\h\w*\ze\s*(" contains=NONE
@@ -28,7 +28,7 @@ syn keyword smeltSetting version cxx_std c_std optimization debug_info type
 syn keyword smeltSetting source_dir files exclude export public_includes
 syn keyword smeltSetting private_includes defines public_defines
 syn keyword smeltSetting compile_options link depends warnings find
-syn keyword smeltSetting registry git tag commit path target
+syn keyword smeltSetting registry git tag commit path
 
 syn keyword smeltRemoved sources
 
